@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.genesyslab.webme.ats:iwsagent-emulator:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/genesyslab/webme/ats/iwsagent-emulator/1.0-SNAPSHOT/iwsagent-emulator-1.0-20170804.045238-480.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/genesyslab/webme/ats/iwsagent-emulator/1.0-SNAPSHOT/iwsagent-emulator-1.0-20170804.045238-480-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/genesyslab/webme/ats/iwsagent-emulator/1.0-SNAPSHOT/iwsagent-emulator-1.0-20170804.045238-480-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
