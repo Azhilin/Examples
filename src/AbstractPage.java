@@ -14,15 +14,15 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.hamcrest.Matchers.containsString;
 
-//A place for common methods of all GMS pages
-public abstract class GMSAbstractPage {
+//A place for common methods of all pages
+public abstract class AbstractPage {
     private By busyIndicatorLocator = By.xpath("//img[@src='img/big-spinner.gif']");
     protected WebDriver driver;
     protected Actions builder;
     protected static final long TIMEOUT_SECONDS = 120;
     protected static final long POLLING_TIME_MILLIS = 200;
 
-    public GMSAbstractPage(WebDriver driver) {
+    public AbstractPage(WebDriver driver) {
         this.driver = driver;
         builder = new Actions(driver);
     }
